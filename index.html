@@ -1,0 +1,53 @@
+<!doctype html>
+
+<!--Beginning of the Header section for information about the webpage-->
+<head>
+    <!--links the .css StyleSheet to the .html-->
+    <link rel="styleSheet" href="styles.css">
+    <!--links the .js file to the .html-->
+    <script src="script.js"></script>
+
+    <!--Title for your webpage-->
+    <title>Space Login</title>
+
+</head>
+
+<!--beginning of the Body Statement for the material of the webpage-->
+<body>
+    <!--divider to put in the sign up information-->
+    <div id="loginEnvelope">
+
+        <!--divider section for the Website's Title Header display-->
+        <div id="Title">
+            <h2>Mission Control Operator Log In</h2>
+        </div>
+        
+        <!--input an empty line on the webpage-->
+        <br>
+
+        <!--makes a divided section to keep the Log In info in-->
+        <div id="loginDiv">
+            <center><p>Hello, potential Mission Control Operator! Please fill in your account details in order to log in.</p></center>
+            <!--Creates a textbox that the user can input strings into-->
+            <input class= "logInfo" id="First Name" type="text" placeholder="First Name">
+            <!--Creates a textbox that the user can input strings into-->
+            <input class="logInfo" id="Last Name" type="text" placeholder="Last Name">
+            <!--adds an empty line onto the webpage-->
+            <br>
+            <!--Creates a textbox that the user can input strings into-->
+            <input class="logInfo" id="Badge Number" type ="text" placeholder="Badge Number">
+
+            <!--Makes a line through the section-->
+            <hr>
+
+            <!--Makes a button That activates the validation function once clicked-->
+            <button onclick="validateUser()">Log In</button>
+
+        </div>
+
+        
+    
+    </div>
+
+
+</body>
